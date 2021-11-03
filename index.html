@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Aluraconf</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/aboute.css"> 
+    <link rel="stylesheet" href="css/base.css">    
+    <link rel="stylesheet" href="css/speaker.css">  
+    <link rel="stylesheet" href="css/form.css"> 
+</head>
+<body>
+    <header class="header">
+        <nav class="main-menu">
+            <ul>
+                <li class="menu-item"><a href="#panel-about">Sobre</a></li>
+                <li class="menu-item"><a href="#panel-speakers">Palestrantes</a></li>
+            </ul>        
+        </nav>     
+        <div class="jumbotron">
+            <section class="panel-main">
+                <h1 class="title">ALURACONF</h1>
+                <h2 class="subtitle">30MAIO|RIO</h2>
+            </section>
+
+            <section class="panel-subscribe" >
+                <a href="#panel-form" class= "button">Inscreva-se</a>
+           </section>
+        </div>
+    </header>
+    <section class="panel panel-about" id="panel-about">
+    <div class="container">
+        <h2 class= "title">Muito conteúdo de frontend e backend</h2>
+        <h3 class= "subtitle">30 de maio de 2022 - em Tangamandapio</h3>
+        <div class="about-description">
+            <p>Com a Alura abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.</p>
+            <p>É uma grande chance de ficar por dentro de assuntos de Android, IOS, Web mobile, desenvolvimento híbrido, UX, além da parte de backend com REST, Microservices, e BigData.
+                O desenvolvedor atualizado vai estar aqui!
+            </p>
+        </div>
+    </div>
+    </section>
+
+    <section id="panel-speakers" class="panel panel-speakers">
+        <div class="container">
+        <div class="about-speakers">
+            <h2 class="title">PALESTRANTES</h2>
+            <h3 class="subtitle">Aprenda com palestrantes que são referência no mercado</h3>
+        </div>
+            <ul class="speakers">
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img  class="speaker-image" src="img/palestrantes/chaves-222x222.png" alt="Foto dos palestrantes">
+                        <figcaption class = "speaker-name">Chaves do 8</figcaption>
+                        <p class="speaker-bio">Desenvolvedor e instrutor da Boa Vizinhança Studio</p>
+                    </figure>
+                    <p class="speaker-speach">Como iniciar sua carreira com baixo orçamento.</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/Chiquinha.png" alt="Foto dos palestrantes">
+                        <figcaption class = "speaker-name">Chiqunha</figcaption>
+                        <p class="speaker-bio">Desenvolvedora e instrutora da Pois é Pois é Inovações</p>
+                    </figure>
+                    <p class="speaker-speach">Como garotas podem iniciar na carreira de Devs</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/Dona_Florinda.jpg" alt="Foto dos palestrantes">
+                        <figcaption class = "speaker-name">Florinda</figcaption>
+                        <p class="speaker-bio">Desenvolvedora e instrutora</p>
+                    </figure>
+                    <p class="speaker-speach">A importancia de não misturar o CSS com a gentalha.</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/girafales.jpg" alt="Foto dos palestrantes">
+                        <figcaption class = "speaker-name">Professor Girafales</figcaption>
+                        <p class="speaker-bio">Diretor de conteúdo e Instrutor da Cale-se Agencia de Sound Branding</p>
+                    </figure>
+                    <p class="speaker-speach">Desenvolvimento de conteúdo de forma inteligente.</p>
+                </li>
+
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/chapatin.jpg" alt="Foto dos palestrantes">
+                        <figcaption class = "speaker-name">Dr. Chapatim</figcaption>
+                        <p class="speaker-bio">Desenvolvedor Senior</p>
+                    </figure>
+                    <p class="speaker-speach">Você é Jovem ainda : nunca é tarde para aprender a programar.</p>
+                </li>
+ 
+                <li class="speaker">
+                    <figure class="speaker-portrait">
+                        <img class="speaker-image" src="img/palestrantes/unnamed.jpg" alt="Foto dos palestrantes">
+                        <figcaption class = "speaker-name">Madruga</figcaption>
+                        <p class="speaker-bio">Desenvolvedor e fundados da Madruguinha </p>
+                    </figure>
+                    <p class="speaker-speach">Bug bom, bug bonito, bug bem feito. </p>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <section id="panel-form" class="panel-form">
+        <h2 class="title">Seus dados</h2>
+        <form >
+            <div class="field">
+                <label>Nome</label>
+               <input  class="field-input">
+            </div>
+
+            <div class="field">
+                <label>E-mail</label>
+                <input class="field-input">
+            </div>
+
+            <div class="button-place">
+                <button class='button'>REALIZAR INSCRIÇÃO</button>
+            </div>
+
+        </form>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+
+
+</body>
+</html>
